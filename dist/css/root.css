@@ -1,0 +1,91 @@
+@import url("./mobile.css");
+@import url("./desktop.css");
+
+@font-face {
+  font-family: "Myria Regular";
+  src: url("./../font/Myriad\ Pro\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Myria bold";
+  src: url("./../font/Myriad\ Pro\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Myria light";
+  src: url("./../font/Myriad\ Pro\ Light.otf");
+}
+
+:root {
+  --bg-blue-color: #0059c3;
+  --bg-orange-color: #ff4f28;
+  --bg-gray-color: #555656;
+  --bg-light-color: #f1f2f2;
+  --bg-gradient-orange-color: linear-gradient(
+    90deg,
+    rgba(255, 102, 51, 1) 0%,
+    rgba(255, 64, 33, 1) 100%
+  );
+
+  --bg-gradient-orange-color-bottom: linear-gradient(
+    180deg,
+    rgba(255, 102, 51, 1) 0%,
+    rgba(255, 64, 33, 1) 100%
+  );
+
+  --bg-gradient-light-color: linear-gradient(90deg, #979797 0%, #f1f2f2 100%);
+
+  --bg-gradient-light-color-bottom: linear-gradient(
+    180deg,
+    #e2e2e2 0%,
+    #ffffff 100%
+  );
+}
+
+.text-blue {
+  color: var(--bg-blue-color);
+}
+
+.text-orange {
+  color: var(--bg-orange-color);
+}
+
+.text-gray {
+  color: var(--bg-gray-color);
+}
+
+.text-myria-bold {
+  font-family: "Myria bold" !important;
+}
+
+.text-myria-regular {
+  font-family: "Myria Regular" !important;
+}
+
+.bg-orange {
+  background-color: var(--bg-orange-color) !important;
+}
+
+.bg-gradient-orange {
+  background: var(--bg-gradient-orange-color) !important;
+}
+
+.bg-gradient-orange-bottom {
+  background: var(--bg-gradient-orange-color-bottom) !important;
+}
+
+.bg-gradient-light {
+  background: var(--bg-gradient-light-color) !important;
+}
+
+.bg-gradient-light-bottom {
+  background-color: var(--bg-gradient-light-color-bottom) !important;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
