@@ -5,6 +5,8 @@
     background-position: center;
     margin: auto;
     height: 400px;
+    max-width: 1024px;
+    margin: auto;
   }
 
   #header .background {
@@ -13,9 +15,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-image: url("./../img/bg1.png");
-    background-position: right 0% bottom 45%;
+    margin: auto;
   }
 
   #header #logo {
@@ -57,10 +57,6 @@
     display: block;
     max-width: inherit;
     padding: 15px 15px;
-    background-image: url("./../img/b2.png");
-    background-size: contain;
-    background-repeat: repeat-y;
-    background-position: right 0% bottom 45%;
   }
 
   #videos .row {
@@ -133,5 +129,9 @@
 
   #footer ul li {
     margin: auto;
+  }
+
+  #footer ul li::before {
+    box-shadow: 0px 0px 15px 0px rgba(100, 100, 100, 0.5);
   }
 }
