@@ -54,6 +54,15 @@
   margin: auto;
 }
 
+#videos .row img {
+  position: relative;
+  display: block;
+  width: 150px;
+  margin: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
 #videos .iframe-container {
   height: 300px;
 }

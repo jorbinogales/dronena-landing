@@ -60,6 +60,7 @@
   }
 
   #videos .row {
+    position: relative;
     margin: auto;
     max-width: 1248px !important;
     margin-top: 50px;
@@ -68,15 +69,24 @@
 
   #videos .row h2,
   #videos .row h3,
-  #videos .row p {
-    text-align: left;
+  #videos .row p,
+  #videos .row i {
+    text-align: left !important;
   }
 
-  #videos .row img {
+  #videos .row .curva1,
+  #videos .row .curva2 {
     position: absolute;
     width: 200px;
     height: auto;
     left: 175px;
+  }
+
+  #videos .row img {
+    display: block;
+    width: 100px;
+    margin: auto;
+    position: absolute;
   }
 
   #videos .row .curva1 {
